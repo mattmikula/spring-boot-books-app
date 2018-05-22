@@ -6,13 +6,14 @@ and can be accessed with the following credentials: user1/password.
 The application comes preloaded with a few sample records that can be used to quickly test endpoints.
 
 ### Running application
-This application can be run using either spring boot or docker:
+This application can be run using either spring boot or docker.
+
+Spring Boot:
 ```
 mvn clean spring-boot:run
 ```
 
-Or
-
+Docker:
 ```
 ./mvnw install dockerfile:build
 docker run -p 8080:8080 -t books/books
