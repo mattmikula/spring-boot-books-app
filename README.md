@@ -23,10 +23,8 @@ docker run -p 8080:8080 -t books/books
 mvn clean test
 ```
 
-### Example request
-```
-curl -u user1:password http://localhost:8080/books/
-```
+### Example requests
+Please view the postman collection provided in the repo's docs folder for example requests.
 
 ### Swagger UI documentation can be viewed at
 http://localhost:8080/swagger-ui.html
